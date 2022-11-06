@@ -1,7 +1,6 @@
 package solutions.roman_to_Integer;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /*
  * Roman to Integer
