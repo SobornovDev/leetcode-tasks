@@ -1,10 +1,9 @@
-package solutions;
+package solutions.n901_online_stock_span;
 
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import solutions.n901_Online_Stock_Span.StockSpanner;
 
 import java.util.ArrayList;
 import java.util.Arrays;

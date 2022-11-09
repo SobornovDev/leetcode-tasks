@@ -1,4 +1,4 @@
-package solutions.n901_Online_Stock_Span;
+package solutions.n901_online_stock_span;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

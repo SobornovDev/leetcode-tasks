@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+.IdeaProjects
+*.iml
+target
+.m2
+.mvn
