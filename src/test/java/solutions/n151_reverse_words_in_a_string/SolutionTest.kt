@@ -1,7 +1,6 @@
 package solutions.n151_reverse_words_in_a_string
 
 import org.junit.Assert
-import org.junit.Assert.assertEquals
 import org.junit.Test
 
 
