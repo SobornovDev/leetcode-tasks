@@ -12,8 +12,7 @@ class BinaryTree(private var root: TreeNode?) {
     }
 
     fun find(data: Int): TreeNode? {
-        root?.find(data)
-        return null
+        return root?.find(data)
     }
 
     fun delete (data: Int) {
