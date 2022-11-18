@@ -1,7 +1,6 @@
 package utils
 
 import org.junit.Assert
-import org.junit.BeforeClass
 import org.junit.Test
 import solutions.utils.BinaryTree
 import solutions.utils.TreeNode
