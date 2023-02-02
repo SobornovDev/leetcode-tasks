@@ -10,6 +10,11 @@ class SolutionTest {
     fun searchTest() {
         Assert.assertEquals(3, solution.search(intArrayOf(4,5,6,7,8,9,10,11,12,13,14,15,16,0,1,2), 7))
     }
+
+    @Test
+    fun searchTest2() {
+        Assert.assertEquals(15, solution.search(intArrayOf(8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7), 7))
+    }
     @Test
     fun regularTest1() {
         Assert.assertEquals(7, solution.searchRegular(intArrayOf(1,2,3,4,5,6,7,8), 8))
