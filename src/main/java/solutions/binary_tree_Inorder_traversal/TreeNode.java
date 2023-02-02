@@ -6,13 +6,22 @@ package solutions.binary_tree_Inorder_traversal;
  **/
 public class TreeNode<T> {
     private T val;
-    TreeNode left;
-    TreeNode right;
+    private TreeNode left;
 
-    TreeNode() {}
-    TreeNode(T val) {this.val = val;}
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
 
-    TreeNode(T val, TreeNode left, TreeNode right) {
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
+
+    private TreeNode right;
+
+    public TreeNode() {}
+    public TreeNode(T val) {this.val = val;}
+
+    public TreeNode(T val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
@@ -20,6 +29,10 @@ public class TreeNode<T> {
 
     public T getValue() {
         return this.val;
+    }
+    public TreeNode getRight() { return  this.right; }
+    public TreeNode getLeft() {
+        return this.left;
     }
 
 }

@@ -1,10 +1,12 @@
-package solutions.binary_tree_Inorder_traversal
+package solutions.binary_tree_Inorder_traversal.inorder_traversal
 
 import org.junit.Assert
 import org.junit.Test
+import solutions.binary_tree_Inorder_traversal.TreeNode
 
 class RecursiveSolutionTest {
-    private val solution = RecursiveSolution<Int>()
+    private val solution =
+        RecursiveSolution<Int>()
 
     private val root = TreeNode(25)
 
